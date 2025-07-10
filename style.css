@@ -115,6 +115,77 @@ body {
 
 /* main section */
 
+
+
+
+/* img and text section */
+
+.photo-word-section{
+    height: 1440px;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    padding: 45px;
+}
+
+
+.photo-word-div{
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.word-partv{
+    width: 50%;
+}
+
+.word-img{
+    width: 50%;
+    
+}
+
+.word-card{
+    border-radius: 10px;
+}
+
+.word-h1{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.word-p{
+    text-align: left;
+    font-size: 20px;
+    color: gray;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.word-b{
+    width: 200px;
+    padding: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+
+.word-b:hover{
+    color: black;
+    background-color: yellow;
+    border: none;  
+}
+
+/* word and img done */
+
+
+
 /* contact */
 
 .contact-section{
@@ -122,6 +193,7 @@ body {
     width: 100%;
     padding: 45px;
     margin-top: 40px;
+    margin-bottom: 25px;
 }
 
 .contact-part{
