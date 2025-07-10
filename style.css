@@ -113,5 +113,52 @@ body {
 /* heading and nav var  complete */
 
 
+/* footer family */
+
+.footer-container{
+    max-height: 1440px;
+    width: 100%;
+    padding: 35px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
+.var-h1{
+    font-size: 75px;
+    color: yellow;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.var-p{
+    color: aqua;
+    font-size: 35px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
+
+
+.ul-list{
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    gap: 40px;
+    font-size: 25px;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+
+/* footer done */
+
+
 
 
