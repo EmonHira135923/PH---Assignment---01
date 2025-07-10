@@ -41,322 +41,359 @@ body {
   align-items: center;
 }
 
-.nav-container{
-    padding: 35px 30px;
-    margin-bottom: 50px;
-    
+.nav-container {
+  padding: 35px 30px;
+  margin-bottom: 50px;
 }
 
 /* nav var text side */
 
-.nav-h1{
-    font-size: 35px;
-    font-weight: bold;
-    color: blue;
+.nav-h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: blue;
 }
 
-
-
-.n-btn{
-    width: 150px;
-    padding: 25px;
-    border: none;
-    border-radius: 10px;
-    background-color: blue;
-    color: white;
+.n-btn {
+  width: 150px;
+  padding: 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
 }
 
 /* nav var hove style */
 
-.n-btn:hover{
-    cursor: pointer;
-    border: none;
-    color: black;
-    background-color: yellow;
+.n-btn:hover {
+  cursor: pointer;
+  border: none;
+  color: black;
+  background-color: yellow;
 }
 
-
-.nav-h1:hover{
-    cursor: pointer;
-    color: rgba(0, 0, 0, 0.796);
+.nav-h1:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.796);
 }
 
 /* heading family */
 
-.header-text{
-    text-align: center;
+.header-text {
+  text-align: center;
 }
 
-.header-h1{
-    font-size: 65px;
-    font-weight: bolder;
-    margin-bottom: 15px;
+.header-h1 {
+  font-size: 65px;
+  font-weight: bolder;
+  margin-bottom: 15px;
 }
 
-.header-btn{
-    padding: 20px;
-    width: 150px;
-    margin-top: 15px;
-    border: 2px solid blue;
-    border-radius: 10px;
-    background-color: blue;
-    color: white;
+.header-btn {
+  padding: 20px;
+  width: 150px;
+  margin-top: 15px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
 }
 
-.header-btn:hover{
-    cursor: pointer;
-    background-color: yellow;
-    color: black;
-    border: none;
+.header-btn:hover {
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+  border: none;
 }
 
 /* heading and nav var  complete */
 
-
 /* main section */
-
 
 /* img and text section */
 
-.photo-word-section{
-   max-height: 1440px;
-    width: 100%;
-    margin-bottom: 25px;
-    margin-top: 40px;
-    padding: 45px;
+.photo-word-section {
+  max-height: 1440px;
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 40px;
+  padding: 45px;
 }
 
-
-.photo-word-div{
-    display: flex;
-    gap: 80px;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.photo-word-div {
+  display: flex;
+  gap: 80px;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.word-partv{
-    width: 50%;
+.word-partv {
+  width: 50%;
 }
 
-.word-img{
-    width: 50%;
-    
+.word-img {
+  width: 50%;
 }
 
-.word-card{
-    border-radius: 10px;
+.word-card {
+  border-radius: 10px;
 }
 
-.word-h1{
-    text-align: left;
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.word-h1 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.word-p{
-    text-align: left;
-    font-size: 20px;
-    color: gray;
-    font-weight: normal;
-    margin-top: 10px;
-    margin-bottom: 15px;
+.word-p {
+  text-align: left;
+  font-size: 20px;
+  color: gray;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
-.word-b{
-    width: 200px;
-    padding: 20px;
-    color: white;
-    background-color: blue;
-    border: none;
-    border-radius: 10px;
+.word-b {
+  width: 200px;
+  padding: 20px;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
 }
 
-.word-b:hover{
-    color: black;
-    background-color: yellow;
-    border: none;  
+.word-b:hover {
+  color: black;
+  background-color: yellow;
+  border: none;
 }
 
 /* word and img done */
 
+/* counting task */
+
+.counting-task-section {
+  max-height: 1440px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 45px 45px;;
+}
+
+.counting-h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #252432;
+
+}
+
+.counting-part{
+  text-align: center;
+  margin: 20px;
+  padding: 25px;
+}
+
+.counting-div {
+  background-color: rgba(128, 128, 128, 0.458);
+  border-radius: 10px;
+  margin-right: 85px;
+  text-align: center;
+}
+
+.flexiable-section {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+ 
+}
+
+.cnt-task{
+    margin-bottom: 70px;
+}
+
+.cnt-h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: blue;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cnt-p{
+    font-size: 25px;
+    color: #252432;
+    text-align: center;
+}
 
 /* bonus task */
 
-.bonus-section{
-    max-height: 1440px;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 45px 45px;
+.bonus-section {
+  max-height: 1440px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 45px 45px;
 }
 
-.bonus{
-    background-color: rgba(128, 128, 128, 0.458);
-    border-radius: 10px;
-    margin-right: 85px;
-    text-align: center;
+.bonus {
+  background-color: rgba(128, 128, 128, 0.458);
+  border-radius: 10px;
+  margin-right: 85px;
+  text-align: center;
 }
 
-.bonus-part{
-    margin-top: 35px;
-    margin-bottom: 35px;
+.bonus-part {
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
-.bonus-h1{
-    margin-top: 45px;
-    margin-bottom: 5px;
-    padding: 25px;
-    font-size: 45px;
-    font-weight: bold;
+.bonus-h1 {
+  margin-top: 45px;
+  margin-bottom: 5px;
+  padding: 25px;
+  font-size: 45px;
+  font-weight: bold;
 }
 
-.bonus-p{
-    margin-bottom: 30px;
-    font-size: 23px;
-    font-weight: normal;
+.bonus-p {
+  margin-bottom: 30px;
+  font-size: 23px;
+  font-weight: normal;
 }
 
-.bonus-img{
-    margin-top: 45px;
-    margin-bottom: 35px;
+.bonus-img {
+  margin-top: 45px;
+  margin-bottom: 35px;
 }
 
-.b-card{
-    margin-bottom: 50px;
-    border-radius: 20px;
-    text-align: center;
+.b-card {
+  margin-bottom: 50px;
+  border-radius: 20px;
+  text-align: center;
 }
 
-.bonus-b{
-    width: 250px;
-    padding: 15px;
-    background-color: blue;
-    color: white;
-    font-size: 18px;
-    border-radius: 10px;
-    border: 2px solid blue;
+.bonus-b {
+  width: 250px;
+  padding: 15px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid blue;
 }
 
-.bonus-b:hover{
-    cursor: pointer;
-    background-color: yellow;
-    color: black;
-    border: 2px solid yellow;
+.bonus-b:hover {
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+  border: 2px solid yellow;
 }
-
-
 
 /* contact */
 
-.contact-section{
-    max-height: 1440px;
-    width: 100%;
-    padding: 45px;
-    margin-top: 40px;
-    margin-bottom: 25px;
+.contact-section {
+  max-height: 1440px;
+  width: 100%;
+  padding: 45px;
+  margin-top: 40px;
+  margin-bottom: 25px;
 }
 
-.contact-part{
-    width: 50%;
-    font-size: 60px;
+.contact-part {
+  width: 50%;
+  font-size: 60px;
 }
 
-.contact-form{
-    width: 50%;
+.contact-form {
+  width: 50%;
 }
 
-.contact-label{
-    font-size: 20px;
-    font-weight: bold;
+.contact-label {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.contact-div{
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
-    align-items: center;
+.contact-div {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  align-items: center;
 }
 
-.contact-input,.contact-area{
-    width: 350px;
-    padding: 25px;
-    outline-color: blue;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    border: 2px solid blue;
+.contact-input,
+.contact-area {
+  width: 350px;
+  padding: 25px;
+  outline-color: blue;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid blue;
 }
 
-.contact-b{
-    width: 400px;
-    padding: 20px;
-    background-color: blue;
-    color: white;
-    font-size: 20px;
-    border-radius: 10px;
-    border: 2px solid blue;
+.contact-b {
+  width: 400px;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid blue;
 }
 
-.contact-b:hover{
-    cursor: pointer;
-    background-color: yellow;
-    color: black;
-    border: 2px solid yellow;
+.contact-b:hover {
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+  border: 2px solid yellow;
 }
 
 /* contact family ended */
 
-
 /* footer family */
 
-.footer-container{
-    max-height: 1440px;
-    width: 100%;
-    padding: 35px;
-    background-color: black;
-    text-align: center;
-    color: white;
+.footer-container {
+  max-height: 1440px;
+  width: 100%;
+  padding: 35px;
+  background-color: black;
+  text-align: center;
+  color: white;
 }
 
-
-.var-h1{
-    font-size: 75px;
-    color: yellow;
-    margin-top: 25px;
-    margin-bottom: 40px;
-    text-align: center;
-    margin-right: 25px;
+.var-h1 {
+  font-size: 75px;
+  color: yellow;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-right: 25px;
 }
 
-.var-p{
-    color: aqua;
-    font-size: 35px;
-    margin-right: 40px;
-    margin-bottom: 15px;
+.var-p {
+  color: aqua;
+  font-size: 35px;
+  margin-right: 40px;
+  margin-bottom: 15px;
 }
 
-
-.ul-list{
-    list-style: none;
-    display: flex;
-    margin-top: 25px;
-    margin-bottom: 45px;
-    gap: 40px;
-    font-size: 25px;
-    justify-content: center;
+.ul-list {
+  list-style: none;
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  gap: 40px;
+  font-size: 25px;
+  justify-content: center;
 }
-a{
-    text-decoration: none;
-    color: yellow;
+a {
+  text-decoration: none;
+  color: yellow;
 }
-
 
 /* footer done */
-
-
-
-
