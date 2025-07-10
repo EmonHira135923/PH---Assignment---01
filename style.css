@@ -116,12 +116,10 @@ body {
 /* main section */
 
 
-
-
 /* img and text section */
 
 .photo-word-section{
-    height: 1440px;
+   max-height: 1440px;
     width: 100%;
     margin-bottom: 25px;
     margin-top: 40px;
@@ -183,6 +181,71 @@ body {
 }
 
 /* word and img done */
+
+
+/* bonus task */
+
+.bonus-section{
+    max-height: 1440px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 45px 45px;
+}
+
+.bonus{
+    background-color: rgba(128, 128, 128, 0.458);
+    border-radius: 10px;
+    margin-right: 85px;
+    text-align: center;
+}
+
+.bonus-part{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.bonus-h1{
+    margin-top: 45px;
+    margin-bottom: 5px;
+    padding: 25px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.bonus-p{
+    margin-bottom: 30px;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.bonus-img{
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+.b-card{
+    margin-bottom: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.bonus-b{
+    width: 250px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.bonus-b:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    border: 2px solid yellow;
+}
 
 
 
