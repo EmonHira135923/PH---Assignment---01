@@ -113,6 +113,69 @@ body {
 /* heading and nav var  complete */
 
 
+/* main section */
+
+/* contact */
+
+.contact-section{
+    max-height: 1440px;
+    width: 100%;
+    padding: 45px;
+    margin-top: 40px;
+}
+
+.contact-part{
+    width: 50%;
+    font-size: 60px;
+}
+
+.contact-form{
+    width: 50%;
+}
+
+.contact-label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-div{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+
+.contact-input,.contact-area{
+    width: 350px;
+    padding: 25px;
+    outline-color: blue;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.contact-b{
+    width: 400px;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.contact-b:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    border: 2px solid yellow;
+}
+
+/* contact family ended */
+
+
 /* footer family */
 
 .footer-container{
